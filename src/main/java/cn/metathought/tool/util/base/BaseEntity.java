@@ -16,11 +16,6 @@ public class BaseEntity implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /**
-     * 主键
-     */
-    protected String id;
-
-    /**
      * 创建时间
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
