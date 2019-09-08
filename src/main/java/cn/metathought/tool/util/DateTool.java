@@ -17,12 +17,15 @@ import org.springframework.util.StringUtils;
 public class DateTool {
 	public static final String yyyyMMddHHmmss1 = "yyyy-MM-dd HH:mm:ss";// 精确到秒
 	public static final String yyyyMMddHHmm1 = "yyyy-MM-dd HH:mm";// 精确到分
+	public static final String yyyyMMddHH1 = "yyyy-MM-dd HH";// 精确到时
 	public static final String yyyyMMdd1 = "yyyy-MM-dd";// 精确到日
 	public static final String yyyyMM1 = "yyyy-MM";// 精确到月
 	public static final String yyyy = "yyyy";// 精确到年
 
-	public static final String yyyyMMddHHmmsss2 = "yyyyMMddHHmmssS";// 精确到毫秒
+	public static final String yyyyMMddHHmmsss = "yyyyMMddHHmmssS";// 精确到毫秒
 	public static final String yyyyMMddHHmmss2 = "yyyyMMddHHmmss";// 精确到秒
+	public static final String yyyyMMddHHmm2 = "yyyyMMddHHmm";// 精确到分
+	public static final String yyyyMMddHH2 = "yyyyMMddHH";// 精确到时
 	public static final String yyyyMMdd2 = "yyyyMMdd";// 精确到日
 
 	/**
@@ -114,7 +117,7 @@ public class DateTool {
 	 * @return 格式化出错时返回null
 	 */
 	public static String getNowTimeMS() {
-		return formatDateToString(new Date(), yyyyMMddHHmmsss2);
+		return formatDateToString(new Date(), yyyyMMddHHmmsss);
 	}
 
 	/**

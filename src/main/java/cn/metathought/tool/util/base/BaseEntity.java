@@ -15,6 +15,8 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class BaseEntity implements Serializable {
     private static final long serialVersionUID = 1L;
 
+    protected String id;
+
     /**
      * 创建时间
      */
