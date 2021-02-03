@@ -21,7 +21,7 @@
     <c3p0.version>0.9.5.4</c3p0.version>
     <commons-dbcp2.version>2.6.0</commons-dbcp2.version>
     <httpmime.version>4.5.9</httpmime.version>
-    <ant.version>1.10.6</ant.version>
+    <ant.version>1.10.9</ant.version>
     <jedis.version>3.0.1</jedis.version>
     <codec.version>1.12</codec.version>
     <bouncycastle.version>1.62</bouncycastle.version>
